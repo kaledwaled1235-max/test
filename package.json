@@ -1,0 +1,10 @@
+{
+  "name": "german-ai-tutor",
+  "version": "1.0.0",
+  "description": "AI-powered German learning app with teacher and translator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}

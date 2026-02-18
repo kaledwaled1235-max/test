@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>German AI Tutor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>🇩🇪 German AI Tutor</h1>
+        <p>Learn German with your AI teacher and AI translator.</p>
+      </header>
+
+      <section class="card">
+        <h2>AI Teacher</h2>
+        <label for="topic">Lesson topic</label>
+        <select id="topic">
+          <option value="greetings">Greetings</option>
+          <option value="travel">Travel</option>
+          <option value="food">Food</option>
+          <option value="grammar">Grammar</option>
+        </select>
+
+        <label for="teacherInput">Ask your teacher</label>
+        <textarea id="teacherInput" placeholder="Example: How do I ask for directions politely?"></textarea>
+        <button id="askTeacherBtn">Ask AI Teacher</button>
+
+        <div id="teacherOutput" class="output"></div>
+      </section>
+
+      <section class="card">
+        <h2>AI Translator</h2>
+        <label for="translatorInput">English text</label>
+        <textarea id="translatorInput" placeholder="Example: Hello friend, where is the train station?"></textarea>
+        <button id="translateBtn">Translate to German</button>
+
+        <div id="translatorOutput" class="output"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
